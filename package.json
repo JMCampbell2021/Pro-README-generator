@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JMCampbell2021/Pro-README-generator/issues"
   },
-  "homepage": "https://github.com/JMCampbell2021/Pro-README-generator#readme"
+  "homepage": "https://github.com/JMCampbell2021/Pro-README-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
