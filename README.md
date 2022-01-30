@@ -17,8 +17,9 @@ For this challenge/assignment I was tasked with a command line application that 
 
 <img width="589" alt="Screen Shot 2022-01-30 at 12 01 31 AM" src="https://user-images.githubusercontent.com/92699311/151687359-536ba791-f1da-4281-8913-c1f2ccd16a3e.png">
 
-## Demostration 
+## Demonstration 
 
+https://watch.screencastify.com/v/hDc9dMMnugYp3fdyRPuQ
 
 ## Technologies
 * Node.js

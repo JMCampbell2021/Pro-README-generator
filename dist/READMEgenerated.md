@@ -1,9 +1,9 @@
-# Pro ReadMe
+# Pro ReadMe generator
 
-  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-orange.svg)](https://choosealicense.com/licenses/unlicense/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
   ## Description
-  This is a demostration of how this repo works
+  This is a demostration of how this repo works.
 
   ## Table of Contents
    * [Installation](#installation)
@@ -15,7 +15,7 @@
    * [Contact Information](#contact-information)
   
   ## Installation
-  You will need to copy this repo and install it to you machine in order for this to work.
+  You will need to copy repo to your own machine and also you must have installed npm.
 
   ## Technologies
   JavaScript, Node
@@ -24,19 +24,19 @@
   Demo
 
   ## License
-  The Unlicense license is used for this repository.
+  The MIT license is used for this repository.
 
   ## How to Contribute
 
-  Keep it simple
+  Keep it simple.
 
   [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## Live Application Link
-  https://www.demo.com
+  https://www.demorepo.com
 
   ## Contact Information
 
-  For questions regarding this repository please contact me at joseph@yahoo.com. You can also view more of my work in Github at [Josephmcampbell2021](https://github.com/Josephmcampbell2021).
+  For questions regarding this repository please contact me at josephcampbell@demo.com. You can also view more of my work in Github at [JosephMcampbell2021](https://github.com/JosephMcampbell2021).
 
   
