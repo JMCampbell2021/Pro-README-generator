@@ -7,7 +7,7 @@ For this challenge/assignment I was tasked with a command line application that 
 ## Table of Contents
 
    * [Acceptence Criteria](#Acceptence-Criteria)
-   * [Demostration](#Demostration )
+   * [Demonstration](#Demonstration )
    * [Technologies](#Technologies)
    * [Live Application Link](#live-application-link)
    * [Contact Information](#contact-information)
