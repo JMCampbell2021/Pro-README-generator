@@ -35,8 +35,6 @@ function generateMarkdown(data) {
   ## License
   This repository is licensed under the ${data.license} license.
 
-  ## Features
-
   ## How to Contribute
 
   ${data.contribute}
@@ -48,9 +46,7 @@ function generateMarkdown(data) {
 
   ## Contact Information
 
-  [${data.username}](https://github.com/S{data.username})
-
-  ${data.email}
+  For questions regarding this repository please contact me at ${data.email}. You can also view more of my work in Github at [${data.username}](https://github.com/S{data.username}).
 
   `;
 }
