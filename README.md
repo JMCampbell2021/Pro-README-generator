@@ -21,6 +21,10 @@ For this challenge/assignment I was tasked with a command line application that 
 
 https://watch.screencastify.com/v/hDc9dMMnugYp3fdyRPuQ
 
+
+https://user-images.githubusercontent.com/92699311/151722700-4c78adba-aca7-43ae-bf69-4c252aa65a7d.mp4
+
+
 ## Technologies
 * Node.js
 * Inquirer.js
