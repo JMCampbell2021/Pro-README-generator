@@ -1,37 +1,46 @@
-# j
+# Pro ReadMe generator
+
+  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://choosealicense.com/licenses/apache-2.0/)
 
   ## Description
-  j
+  demo of generator
 
   ## Table of Contents
-   * [Tests](#tests)
+   * [Installation](#installation)
+   * [Technologies](#technologies)
+   * [Usage](#usage)
+   * [License](#license)
+   * [How to Contribute](#how-to-contribute)
+   * [Live Application Link](#live-application-link)
+   * [Contact Information](#contact-information)
   
   ## Installation
-  q
+  you have npm installed
 
   ## Technologies
-  
+  JavaScript,HTML,CSS,ES6,jQuery,Bootstrap,Node
 
   ## Usage
   undefined
 
-  ## Credits
-
   ## License
-  This repository is licensed under the undefined license.
-
-  ## Badges
+  This repository is licensed under the Apache 2.0 license.
 
   ## Features
 
   ## How to Contribute
-  undefined
 
-  ## Tests
+  keep it simple 
 
+  [Contributor Covenant](https://www.contributor-covenant.org/)
 
-  ## Go live Application
+  ## Live Application Link
+  www.demo.com
 
-  [j](https://j.github.io/j)
+  ## Contact Information
+
+  [josephmcampbell2021](https://github.com/S{data.username})
+
+  joseph123@yahoo.com
 
   

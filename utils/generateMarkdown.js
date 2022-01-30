@@ -15,7 +15,13 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  ${data.content}
+   * [Installation](#installation)
+   * [Technologies](#technologies)
+   * [Usage](#usage)
+   * [License](#license)
+   * [How to Contribute](#how-to-contribute)
+   * [Live Application Link](#live-application-link)
+   * [Contact Information](#contact-information)
   
   ## Installation
   ${data.installation}
@@ -26,24 +32,25 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## Credits
-
   ## License
   This repository is licensed under the ${data.license} license.
-
-  ## Badges
 
   ## Features
 
   ## How to Contribute
+
   ${data.contribute}
 
-  ## Tests
+  [Contributor Covenant](https://www.contributor-covenant.org/)
 
+  ## Live Application Link
+  ${data.link}
 
-  ## Go live Application
+  ## Contact Information
 
-  [${data.title}](https://${data.username}.github.io/${data.repo})
+  [${data.username}](https://github.com/S{data.username})
+
+  ${data.email}
 
   `;
 }
