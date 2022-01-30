@@ -1,9 +1,9 @@
-# Pro ReadMe generator
+# Pro ReadMe
 
-  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://choosealicense.com/licenses/apache-2.0/)
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-orange.svg)](https://choosealicense.com/licenses/unlicense/)
 
   ## Description
-  demo of generator
+  This is a demostration of how this repo works
 
   ## Table of Contents
    * [Installation](#installation)
@@ -15,32 +15,28 @@
    * [Contact Information](#contact-information)
   
   ## Installation
-  you have npm installed
+  You will need to copy this repo and install it to you machine in order for this to work.
 
   ## Technologies
-  JavaScript,HTML,CSS,ES6,jQuery,Bootstrap,Node
+  JavaScript, Node
 
   ## Usage
-  undefined
+  Demo
 
   ## License
-  This repository is licensed under the Apache 2.0 license.
-
-  ## Features
+  The Unlicense license is used for this repository.
 
   ## How to Contribute
 
-  keep it simple 
+  Keep it simple
 
   [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## Live Application Link
-  www.demo.com
+  https://www.demo.com
 
   ## Contact Information
 
-  [josephmcampbell2021](https://github.com/S{data.username})
-
-  joseph123@yahoo.com
+  For questions regarding this repository please contact me at joseph@yahoo.com. You can also view more of my work in Github at [Josephmcampbell2021](https://github.com/Josephmcampbell2021).
 
   
