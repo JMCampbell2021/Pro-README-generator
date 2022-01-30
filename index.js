@@ -33,6 +33,31 @@ const questions = () =>{
       }
     },
     {
+      type: "list",
+        message: "What license should your project have?",
+        name: "license",
+        choices: [
+            "MIT",
+            "Apache 2.0",
+            "GNU v3",
+            "Boost Software License 1.0",
+            "Mozilla Public License 2.0"
+        ]
+    },
+    {
+      type: 'input',
+      name: 'repo',
+      message: 'What is the repo name for you project? (Required)',
+      validate: titleInput => {
+        if (titleInput) {
+          return true;
+        } else {
+          console.log('Please enter repo name!');
+          return false;
+        }
+      }
+    },
+    {
       type: 'input',
       name: 'description',
       message: 'Provide a short description explaining your project? (Required)',
@@ -52,31 +77,61 @@ const questions = () =>{
       default: true
     },
     {
+      type: 'checkbox',
+      name: 'content',
+      message: 'Which content information you want to show in the table',
+      when: ({ tableofcontent }) => tableofcontent,
+      choices: [
+        ' * [Installation](#installation)',
+        ' * [Technologies](#technologies)',
+        ' * [Usage](#usage)',
+        ' * [License](#license)',
+        ' * [Contributing](#contributing)',
+        ' * [Tests](#tests)',
+        ' * [Questions](#questions)'
+      ]
+    },
+    {
       type: 'input',
-      name: 'about',
-      message: 'Provide table of content information',
-      when: ({ tableOfContent }) => tableOfContent
+      name: 'installation',
+      message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.'
+    },
+    {
+      type: 'confirm',
+      name: 'usageinfo',
+      message: 'Would you like to add a usage information?(optional)',
+      default: true
+    },
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'Provide instructions and examples for use. Include screenshots as needed.',
+      when: ({ usageinfo }) => usageinfo,
     },
     {
       type: 'checkbox',
-      name: 'languages',
-      message: 'What did you this project with? (Check all that apply)',
-      choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+      name: 'technologies',
+      message: 'What did you use for this project? (Check all that apply)',
+      choices: [' * JavaScript', ' * HTML', ' * CSS', ' * ES6', ' * jQuery', ' * Bootstrap', ' * Node']
     },
   ])
 }
 
-questions()
-// console.log(questions)
+// questions()
+// // console.log(questions)
 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
+    fs.writeFile('./dist/READMEgenerated.md', data,(err) => {
+      if(err) console.log('error')});
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+async function init() {
+  let answers = await questions ();
+  writeToFile((answers.fileName),(generateMarkdown(answers)));
+}
 
 // Function call to initialize app
 init();
