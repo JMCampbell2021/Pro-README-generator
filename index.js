@@ -8,6 +8,19 @@ const questions = () =>{
   return inquirer.prompt([
     {
       type: 'input',
+      name: 'username',
+      message: 'What is your GitHub user name?',
+      validate: userName => {
+        if (userName) {
+          return true;
+        } else {
+          console.log('Please enter your GitHub username!');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
       name: 'title',
       message: 'What is the title of your project? (Required)',
       validate: titleInput => {
@@ -33,21 +46,8 @@ const questions = () =>{
       }
     },
     {
-      type: 'input',
-      name: 'tableofContent',
-      message: 'Would you like to add a table of content?(optional)',
-      validate: tableConfirm => {
-          if (tableConfirm) {
-              return true;
-          } else {
-              console.log('are you sure you dont want to add a table of contents?')
-              return false;
-          }
-      }
-    },
-    {
       type: 'confirm',
-      name: 'tableOfContent',
+      name: 'tableofcontent',
       message: 'Would you like to add a table of content?(optional)',
       default: true
     },
@@ -66,12 +66,14 @@ const questions = () =>{
   ])
 }
 
-// questions()
+questions()
 // console.log(questions)
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+}
 
 // TODO: Create a function to initialize app
 function init() {}

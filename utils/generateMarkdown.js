@@ -14,7 +14,40 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-`;
+  ## Description
+  ${data.description}
+
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## Installation
+
+  ## Usage
+  ${data.usage}
+
+  ## Credits
+
+  ## License
+  This repository is licensed under the ${data.license} license.
+
+  ## Badges
+
+  ## Features
+
+  ## How to Contribute
+  ${data.contribute}
+
+  ## Tests
+
+
+  ## Go live Application
+  
+  `;
 }
 
 module.exports = generateMarkdown;
